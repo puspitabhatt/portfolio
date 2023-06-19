@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #dcd4d4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* container class */
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+ /* nav bar design start */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #151d38;
+    color: #ffffff;
+    align-items:center;
+    justify-content: center;
+}
+
+.nav-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item-container{
+    margin-left: auto;
+    display: flex;
+}
+
+.brand h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.nav-item{
+    margin-left: 24px;
+}
+
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active,
+.nav-item a:hover{
+    font-size: 24px;
+    font-weight: 500;
+    color: #f8f5f5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* profile card section start */
+.profile-card-container{
+    width: 100%;
+    height: 470px;
+    margin-top:50px ;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+}
+
+.profile-picture-container{
+    width: 470px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-square-container{
+    width: 370px;
+    height: 370px;
+    border:5px solid #151d38 ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-circle-container{
+    width: 305px;
+    height: 305px;
+    border: 5px solid #151d38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image-circle-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.profile-info-container{
+    width: 930px;
+
+}
+
+.profile-info{
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    color: #0d0d0d ;
+}
+
+    .profile-title{
+        font-weight: 1200px;
+        font-size: 34px;
+        letter-spacing: 0.04rem;
+        text-transform: capitalize;
+        color: #0d0d0d ;
+        margin-top: 7px;
+}
+
+.social-links{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links img{
+    margin-right: 20px;
+}
+
+.skill-chips{
+    display: flex;
+    margin-top: 20px;
+}
+.skill-chip{
+    background: #151d38;
+    color: #ffffff;
+    padding: 9px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.10rem;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.profile-bio{
+    font-style:normal ;
+    letter-spacing: 0.04rem;
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-right: 147px;
+
+}
